@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+nav a{
+    letter-spacing: 0.3rem;
+}
+
+header nav{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px black;
+    
+}
+#hero-section{
+    background-image: url(../assets/architect.jpg); 
+    height: 100vh;
+    background-size: cover;
+    letter-spacing: 4px;
+
+    background-position: center;
+}
+#word2{
+    font-size: x-large;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: ;
+}
+
+.card-subtitle{
+    font-size: 1.1rem;
+    /* margin-bottom:0.7rem; */
+}
+
+.card img{
+    filter: grayscale(0.75);
+}
+.about .row .col-12 .card-img{
+    overflow: hidden;
+}
+.about .row .col-12 img{
+    transition:all 0.5s ;
+    
+}
+
+.about .row .col-12 img:hover{
+    transform: scale(1.5) ;
+    cursor: pointer;
+}
+
+
